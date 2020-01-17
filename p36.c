@@ -2,42 +2,42 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 6: Factorial Iterative                 */
+/* Program 36: Simulating Call by Reference       */
 /*                                                */
 /* Time to Complete: 5 minutes                    */
 /*                                                */
 /**************************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int factorial( int n ) ;
+void swap( int *x, int *y ) {
 
-int n, fact ;
+    int temp ;
+
+    temp = *x ;
+    *x = *y ;
+    *y = temp ;
+
+    return ;
+
+}
 
 int main( int argc, char *argv[] ) {
 
-  printf( "Please enter an integer: " ) ;
-  scanf( "%d", &n ) ;
+  int a, b ;
 
-  fact = factorial( n ) ;
+  a = atoi( argv[1] ) ;
+  b = atoi( argv[2] ) ;
 
-  printf( "\nThe factorial of %d is %d.\n", n, fact ) ;
+  printf( "\na is %d. b is %d.\n", a, b ) ;
+
+  swap( &a, &b ) ;
+
+  printf( "\na is %d. b is %d.\n", a, b ) ;
 
   return 0 ;
-  
+
 }
-
-int factorial( int n ) {
-
-  int i, fact = 1 ;
-  
-  for ( i = 1 ; i <= n ; i++ ) fact = fact * i ; 
-
-  return fact ;
-  
-}
-
-
-
 
 

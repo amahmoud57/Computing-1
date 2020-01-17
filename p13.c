@@ -2,42 +2,46 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 6: Factorial Iterative                 */
+/* Program 13: Digit Sum Iterative                */
 /*                                                */
 /* Time to Complete: 5 minutes                    */
 /*                                                */
 /**************************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int factorial( int n ) ;
-
-int n, fact ;
+int digitsum( int n ) ;
 
 int main( int argc, char *argv[] ) {
 
-  printf( "Please enter an integer: " ) ;
-  scanf( "%d", &n ) ;
+  int n ;
+  FILE *fin ;
 
-  fact = factorial( n ) ;
+  fin = fopen( argv[1], "r" ) ; 
 
-  printf( "\nThe factorial of %d is %d.\n", n, fact ) ;
+  while( fscanf( fin, "%d\n", &n ) != EOF )
+  
+    printf( "\nThe sum of the digits of %d is %d.\n\n", n, digitsum( n ) ) ;
 
+  fclose( fin ) ;
+  
   return 0 ;
-  
+
 }
 
-int factorial( int n ) {
+int digitsum( int n ) {
 
-  int i, fact = 1 ;
-  
-  for ( i = 1 ; i <= n ; i++ ) fact = fact * i ; 
+  int sum = 0 ;
 
-  return fact ;
+  while ( n > 0 ) {
+
+    sum = sum + n % 10 ;
+
+    n = n / 10 ; 
+
+  }
+
+  return sum ;
   
 }
-
-
-
-
-

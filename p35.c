@@ -2,46 +2,57 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 8: Fibonacci Iterative                 */
+/* Program 35: Perfect Numbers                    */
 /*                                                */
 /* Time to Complete: 10 minutes                   */
 /*                                                */
 /**************************************************/
 
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdbool.h>
 
-int fibi( int n ) ;
+bool IsPerfect( int i ) ;
 
 int main( int argc, char *argv[] ) {
 
-  int n ;
-  
-  n = atoi( argv[1] ) ;
+  int i ;
 
-  printf( "\nThe %dth number in the Fibonnaci Sequence is %d\n", n, fibi( n ) ) ;
+  for ( i = 1 ; i <= 100000 ; i++ ) {
 
-  return 0 ;
+    if ( IsPerfect( i ) ) {
 
-  
-}
+     printf( "%d\n", i ) ;
 
-int fibi( int n ) {
-
-  int i, fib, num1 = 1, num2 = 1 ; 
-  
-  for ( i = 1 ; i <= ( n - 2 ) ; i++ ) {
-
-    fib  = num1 + num2 ;
-    
-    num1 = num2 ;
-      
-    num2 = fib ;   
+    }
 
   }
-  
-  return fib ;
+
+return 0 ;
 
 }
 
-  
+bool IsPerfect( int i ) {
+
+  int sum = 0, j ;
+
+  for ( j = i - 1 ; j >= 1 ; j-- ) {
+
+    if ( i % j == 0 ) {
+
+      sum = sum + j ;
+
+    }
+
+  }
+
+    if ( sum == i ) {
+
+      return true ;
+
+  }
+
+  return false ;
+
+}
+
+

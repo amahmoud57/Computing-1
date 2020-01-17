@@ -2,24 +2,38 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 2: Command Line Arguments              */
+/* Program: Simple Encryption                     */
 /*                                                */
-/* Time to Complete: 5 minutes                    */
+/* Time to Complete: 15 minutes                   */
 /*                                                */
 /**************************************************/
 
 #include <stdio.h>
+#include <ctype.h>
 
 int main( int argc, char *argv[] ) {
 
-  int i ;
+  FILE *fin ;
+  int l ;
+  
+  fin = fopen( argv[1] , "r" ) ;
 
-  for ( i = 0 ; i < argc ; i++ ) {
+  while( ( l = getc( fin )) != EOF ) {
 
-    printf( "Argument[%d]: %s\n", i, argv[i] ) ;    
+    if ( ! isalpha( l )) { putchar( l ) ; continue ; }
+
+    l = tolower( l ) ;
+
+    l = l + 13 ;
+
+    if ( l >= 123 ) l = 'a' + ( l - 123 ) ;
+
+      putchar ( l ) ; 
 
   }
 
+  fclose( fin ) ;
+  
   return 0 ;
   
 }

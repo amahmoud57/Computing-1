@@ -2,40 +2,38 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 7: Factorial Recursive                 */
+/* Program 14: Digit Sum Recursive                */
 /*                                                */
 /* Time to Complete: 2 minutes                    */
 /*                                                */
 /**************************************************/
 
 #include <stdio.h>
+#include <stdlib.h>
 
-int factorial( int n ) ;
-
-int n, fact ;
+int digitsum( int n ) ;
 
 int main( int argc, char *argv[] ) {
 
-  printf( "Please enter an integer: " ) ;
-  scanf( "%d", &n ) ;
+  int n ;
+  FILE *fin ;
 
-  fact = factorial( n ) ;
+  fin = fopen( argv[1], "r" ) ;
 
-  printf( "\nThe factorial of %d is %d.\n", n, fact ) ;
+  while( fscanf( fin, "%d", &n ) != EOF )
 
+    printf( "\nThe sum of the digits of %d is %d.\n\n", n, digitsum( n ) ) ;
+
+  fclose( fin ) ;
+  
   return 0 ;
-  
+
 }
 
-int factorial( int n ) {
+int digitsum( int n ) {
 
-  if ( n == 0 ) return 1 ;
-
-  return n * factorial( n - 1 ) ;
+  if ( n == 0 ) return 0 ;
   
+  return ( n % 10 ) + digitsum( n / 10 ) ;
+
 }
-
-
-
-
-

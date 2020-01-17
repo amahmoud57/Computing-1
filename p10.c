@@ -26,7 +26,7 @@ int main( int argc, char *argv[] ) {
   b = pow( (( 1 + sqrt( 5 ) ) / 2 ) , n ) ;
   c = pow( (( 1 - sqrt( 5 ) ) / 2 ) , n ) ; 
 
-  printf( "\nThe %dth number is %d\n", n, nthnumber( a, b, c, n ) ) ;
+  printf( "\nThe %dth number in the Fibonnaci Sequence is %d\n", n, nthNumber( a, b, c, n ) ) ;
 
   return 0 ;
   

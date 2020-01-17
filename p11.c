@@ -1,12 +1,12 @@
-/*************************************************************/
-/*                                                           */
-/* Programmer: Abdullah Mahmoud                              */
-/*                                                           */
-/* Program 11: Random Numbers                                */
-/*                                                           */
-/* Time to Complete: 12 minutes                              */
-/*                                                           */
-/*************************************************************/
+/**************************************************/
+/*                                                */
+/* Programmer: Abdullah Mahmoud                   */
+/*                                                */
+/* Program 11: Random Numbers                     */
+/*                                                */
+/* Time to Complete: 12 minutes                   */
+/*                                                */
+/**************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,7 +22,7 @@ int main( int argc, char *argv[] ) {
 
   for ( i = 1 ; i <= n ; i++ )
 
-    fprintf( fout, "%d\n", ( rand() % ( 20 + 20 + 1 )) -40 ) ;
+    fprintf( fout, "%d\n", ( rand() % ( 20 + 20 + 1 )) -20 ) ;
 
   fclose ( fout ) ;
   

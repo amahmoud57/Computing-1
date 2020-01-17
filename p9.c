@@ -1,12 +1,12 @@
-/******************************************************/
-/*                                                    */
-/* Programmer: Abdullah Mahmoud                       */
-/*                                                    */
-/* Program 9: Fibonacci Recursive                     */
-/*                                                    */
-/* Time to Complete: 4 minutes                        */
-/*                                                    */
-/******************************************************/
+/**************************************************/
+/*                                                */
+/* Programmer: Abdullah Mahmoud                   */
+/*                                                */
+/* Program 9: Fibonacci Recursive                 */
+/*                                                */
+/* Time to Complete: 4 minutes                    */
+/*                                                */
+/**************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +19,7 @@ int main( int argc, char *argv[] ) {
   
   n = atoi( argv[1] ) ;
 
-  printf( "\nThe %dth number is %d\n", n, fibi ( n ) ) ;
+  printf( "\nThe %dth number in the Fibonnaci Sequence is %d\n", n, fibi ( n ) ) ;
 
   return 0 ;
   
