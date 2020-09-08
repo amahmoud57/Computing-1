@@ -1,12 +1,10 @@
-/**************************************************/
-/*                                                */
-/* Programmer: Abdullah Mahmoud                   */
-/*                                                */
-/* Program 12: Brute Force Primes                 */
-/*                                                */
-/* Time to Complete: 5 minutes                    */
-/*                                                */
-/**************************************************/
+/************************************************************/
+/*                                                          */
+/* Programmer: Abdullah Mahmoud                             */
+/*                                                          */
+/* Program 12: Brute Force Primes                           */
+/*                                                          */
+/************************************************************/
 #include <stdio.h>
 
 int IsPrime( int n ) ;
