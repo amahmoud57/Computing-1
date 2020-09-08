@@ -4,8 +4,6 @@
 /*                                                        */
 /* Program 1: Hello World and a Bit More                  */
 /*                                                        */
-/* Time to Complete: 3 minutes                            */
-/*                                                        */
 /**********************************************************/
 
 #include <stdio.h>
