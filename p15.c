@@ -1,12 +1,10 @@
-/**************************************************/
-/*                                                */
-/* Programmer: Abdullah Mahmoud                   */
-/*                                                */
-/* Program 15: Persistence Iterative              */
-/*                                                */
-/* Time to Complete: 15 minutes                   */
-/*                                                */
-/**************************************************/
+/************************************************************************************/
+/*                                                                                  */
+/* Programmer: Abdullah Mahmoud                                                     */
+/*                                                                                  */
+/* Program 15: Persistence Iterative                                                */
+/*                                                                                  */
+/************************************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,7 +35,7 @@ int pnumber( int n ) {
 
   int x, product = 1, i, count = 0 ;
 
-  /*  do  {
+   do  {
   
     for( i = 0 ; n > 0 ; i++) {
 
@@ -58,19 +56,5 @@ int pnumber( int n ) {
   } while ( i > 1 ) ;
   
   return counter ;
-  
-  */
-
-  if( ( n / 2 ) == 0 ) return 0 ;
-
-  while( (n/2) != 0 ) {
-
-    product = product * ( n % 10 ) ;
-    count++ ;
-    n = n / 10 ;
-
-  }
-
-  
-
+ 
 }
