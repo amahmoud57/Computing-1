@@ -4,8 +4,6 @@
 /*                                                */
 /* Program 2: Command Line Arguments              */
 /*                                                */
-/* Time to Complete: 5 minutes                    */
-/*                                                */
 /**************************************************/
 
 #include <stdio.h>
