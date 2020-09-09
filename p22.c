@@ -4,8 +4,6 @@
 /*                                                          */
 /* Program 22: Fun with Subtraction                         */
 /*                                                          */
-/* Time to Complete: 15 minutes                             */
-/*                                                          */
 /************************************************************/
 
 #include <stdio.h>
