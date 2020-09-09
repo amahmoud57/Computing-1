@@ -1,12 +1,10 @@
-/**************************************************/
-/*                                                */
-/* Programmer: Abdullah Mahmoud                   */
-/*                                                */
-/* Program: Simple Encryption                     */
-/*                                                */
-/* Time to Complete: 15 minutes                   */
-/*                                                */
-/**************************************************/
+/*********************************************************/
+/*                                                       */
+/* Programmer: Abdullah Mahmoud                          */
+/*                                                       */
+/* Program: Simple Encryption                            */
+/*                                                       */
+/*********************************************************/
 
 #include <stdio.h>
 #include <ctype.h>
