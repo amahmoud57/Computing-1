@@ -4,8 +4,6 @@
 /*                                                             */
 /* Program 23: Left, Right, or Straight w/o Structs            */
 /*                                                             */
-/* Time to Complete: 5 minutes                                 */
-/*                                                             */
 /***************************************************************/
 
 #include <stdio.h>
