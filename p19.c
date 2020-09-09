@@ -4,8 +4,6 @@
 /*                                                                        */
 /* Program 19: Inner Product Recursive                                    */
 /*                                                                        */
-/* Time to Complete: 30 minutes                                           */
-/*                                                                        */
 /**************************************************************************/
 
 #include <stdio.h>
