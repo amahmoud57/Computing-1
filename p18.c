@@ -1,12 +1,10 @@
-/**************************************************/
-/*                                                */
-/* Programmer: Abdullah Mahmoud                   */
-/*                                                */
-/* Program 18: Inner Product Iterative            */
-/*                                                */
-/* Time to Complete: 30 minutes                   */
-/*                                                */
-/**************************************************/
+/*************************************************************************/
+/*                                                                       */
+/* Programmer: Abdullah Mahmoud                                          */
+/*                                                                       */
+/* Program 18: Inner Product Iterative                                   */
+/*                                                                       */
+/*************************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
