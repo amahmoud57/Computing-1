@@ -4,8 +4,6 @@
 /*                                                          */
 /* Program 20: Bits of Fun Iterative                        */
 /*                                                          */
-/* Time to Complete: 10 minutes                             */
-/*                                                          */
 /************************************************************/
 
 #include <stdio.h>
