@@ -4,8 +4,6 @@
 /*                                                                   */
 /* Program 21: Bits of Fun Recursive                                 */
 /*                                                                   */
-/* Time to Complete: 5 minutes                                       */
-/*                                                                   */
 /*********************************************************************/
 
 #include <stdio.h>
