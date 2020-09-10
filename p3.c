@@ -5,8 +5,6 @@
 /*                                                */
 /* Program 3: Using atoi                          */
 /*                                                */
-/* Time to Complete: 25 minutes                   */
-/*                                                */
 /**************************************************/
 
 #include <stdio.h>
