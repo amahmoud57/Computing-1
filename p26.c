@@ -2,9 +2,7 @@
 /*                                                */
 /* Programmer: Abdullah Mahmoud                   */
 /*                                                */
-/* Program 26: Maxumum Subvector 6                */
-/*                                                */
-/* Time to Complete: 10 minutes                   */
+/* Program 26: Maxumum Subvector 2                */
 /*                                                */
 /**************************************************/
 
