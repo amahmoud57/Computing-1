@@ -4,8 +4,6 @@
 /*                                                                   */
 /* Program 30: Inside, On, or Outside                                */
 /*                                                                   */
-/* Time to Complete: 75 minutes                                      */
-/*                                                                   */
 /*********************************************************************/
 
 #include <stdio.h>
