@@ -4,8 +4,6 @@
 /*                                                */
 /* Program 35: Perfect Numbers                    */
 /*                                                */
-/* Time to Complete: 10 minutes                   */
-/*                                                */
 /**************************************************/
 
 #include <stdio.h>
