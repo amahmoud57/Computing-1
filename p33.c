@@ -4,8 +4,6 @@
 /*                                                */
 /* Program 33: Blank Removal                      */
 /*                                                */
-/* Time to Complete: 5 minutes                    */
-/*                                                */
 /**************************************************/
 
 #include <stdio.h>
