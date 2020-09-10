@@ -4,8 +4,6 @@
 /*                                                                              */
 /* Program 29: Remove Duplicates                                                */
 /*                                                                              */
-/* Time to Complete: 75 minutes                                                 */
-/*                                                                              */
 /********************************************************************************/
 
 #include <stdio.h>
