@@ -4,8 +4,6 @@
 /*                                                */
 /* Program 36: Simulating Call by Reference       */
 /*                                                */
-/* Time to Complete: 5 minutes                    */
-/*                                                */
 /**************************************************/
 
 #include <stdio.h>
