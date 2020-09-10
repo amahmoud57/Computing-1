@@ -1,12 +1,10 @@
-/**************************************************/
-/*                                                */
-/* Programmer: Abdullah Mahmoud                   */
-/*                                                */
-/* Program 27: Maxumum Subvector 3                */
-/*                                                */
-/* Time to Complete: 50 minutes                   */
-/*                                                */
-/**************************************************/
+/*********************************************************/
+/*                                                       */
+/* Programmer: Abdullah Mahmoud                          */
+/*                                                       */
+/* Program 27: Maxumum Subvector 3                       */
+/*                                                       */
+/*********************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
